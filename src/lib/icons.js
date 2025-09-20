@@ -1,4 +1,4 @@
-fix: remove unused React import from icons.js
+
 
 import { Coffee, Utensils, Wine } from 'lucide-react';
 
