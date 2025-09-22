@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 export default function Home() {
   const router = useRouter();
   useEffect(() => {
-    router.replace('/login'); // o la ruta que quieras como landing: /mi-negocio, /pos, etc.
+    router.replace('/LoginPage'); // o la ruta que quieras como landing: /mi-negocio, /pos, etc.
   }, [router]);
 
   return null;
