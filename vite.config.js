@@ -10,10 +10,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  build: {
-    outDir: 'dist', // opcional, por claridad
-  },
+  build: { outDir: 'dist' }
 })
+
 
 
 
